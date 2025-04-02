@@ -15,7 +15,7 @@ function QuestionSection() {
                 renderer: 'svg',
                 loop: true,
                 autoplay: true,
-                path: '/src/assets/animation.json'
+                path: '/animation.json'
             });
 
             return () => {
