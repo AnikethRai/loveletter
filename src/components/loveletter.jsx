@@ -20,7 +20,7 @@ function Loveletter() {
             <span className="heart">❤</span>
             <span className="heart">❤</span>
             {song && (
-                <audio autoPlay loop>
+                <audio autoPlay loop muted={false} playsInline
                     <source src="/blue.mp3" type="audio/mpeg" />
                 </audio>
             )}
