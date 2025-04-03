@@ -19,11 +19,11 @@ function Loveletter() {
             <span className="heart">❤</span>
             <span className="heart">❤</span>
             <span className="heart">❤</span>
-           {song && (
+            {song && (
                 <audio autoPlay loop>
-                    <source src="/src/assets/blue.mp3" type="audio/mpeg" />
-                 </audio>
-            )} 
+                    <source src="/blue.mp3" type="audio/mpeg" />
+                </audio>
+            )}
             <div className="love-letter">
                 <h1>Dear {name},</h1>
                 <div className="letter-content">
