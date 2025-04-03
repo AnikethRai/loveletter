@@ -21,7 +21,7 @@ function Loveletter() {
             <span className="heart">❤</span>
             {song && (
                 <audio autoPlay loop>
-                    <source src="/blue.mp3" type="audio/mpeg" />
+                    <source src={`${process.env.PUBLIC_URL}/blue.mp3`} type="audio/mpeg" />
                 </audio>
             )}
             <div className="love-letter">
